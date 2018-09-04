@@ -2,17 +2,28 @@ body{
   background-color:rgb(214, 214, 214) ;
 }
 .card{
-  margin: 0 auto;
+  margin: 20px auto;
   width: 1000px;
   background-color:white ;
   padding: 20px 100px;
   box-sizing: border-box;
 
+  border-radius:10px;
+
+
+}
+h1,h2,h3,h4,h5,h5{
+  font-family: "Sawarabi Mincho";
 }
 p{
   font-size:17px;
+  font-family: "Noto Sans Japanese";
 }
 img{
-  width: 500px;
+  box-shadow: 0 4px 5px rgba(0,0,0,0.26);
+  margin: 40px auto;
+  display: block;
+
+  width: 90%;
   height: auto;
 }
